@@ -8,14 +8,14 @@ export default function App5() {
   const [rating, setRating] = useState<number>(0);
   return (
     <div className=" min-h-screen justify-center flex align-middle items-center bg-black">
-      <div className="bg-gradient-to-b flex flex-col justify-around from-gray-700 p-8 pt6  h-[26rem] overflow-hidden to-gray-900 aspect-square rounded-3xl m-auto ">
+      <div className="bg-gradient-to-b flex flex-col justify-around from-gray-700 px-8 py-6 h-[26rem] overflow-hidden to-gray-900 aspect-square rounded-3xl m-auto ">
         {step === "step1" && (
           <>
             <span className=" w-fit flex justify-center text-center items-center p-2 bg-gray-600 rounded-full">
-              <Star className="text-orange-500" />
+              <Star className="text-orange-500" fontSize="small" />
             </span>
             <h2 className="text-3xl  text-white font-bold">How did we do?</h2>
-            <p className=" text-gray-400 text-sm pr-3">
+            <p className=" text-gray-400 text-sm">
               Please let us know how we did with your support request. All
               feedback is appreciated to help us improve our offering!
             </p>
